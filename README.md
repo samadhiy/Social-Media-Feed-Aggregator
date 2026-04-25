@@ -24,8 +24,6 @@ This project is a simple Social Media Feed Aggregator that combines data from mu
 ---
 
 
----
-
 ## 🔄 Data Format
 
 Each post is normalized into:
@@ -53,13 +51,17 @@ Each post is normalized into:
 📌 Platforms Used
 
 -YouTube
+
 -Twitter/X (sample data)
 
 🎯 Learning Outcomes
 
 -Working with JSON data
+
 -Data normalization
+
 -Frontend UI development
+
 -Basic API/data integration
 
 👩‍💻 Author
