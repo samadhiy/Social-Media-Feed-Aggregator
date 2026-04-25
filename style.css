@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7fb;
+    padding: 30px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#feed-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* Card */
+.card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Platform badge */
+.platform {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    width: fit-content;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.platform.YouTube {
+    background-color: #ff0000;
+}
+
+.platform.Twitter {
+    background-color: #1da1f2;
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+/* Title */
+.title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+/* Date */
+.date {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: auto;
+}
+
+/* Link */
+.card a {
+    margin-top: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #2563eb;
+}
